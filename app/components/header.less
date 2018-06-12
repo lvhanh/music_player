@@ -1,0 +1,28 @@
+.components-header {
+	box-sizing: border-box;
+	padding: 15px 25px;
+	border-bottom: 1px solid #ccc;
+	background: white;
+	.caption {
+		font-size: 20px;
+		text-indent: 20px;
+	}
+}
+.row {
+	display: -webkit-box !important;
+	display: -webkit-flex !important;
+	-webkit-align-items:center;
+	-webkit-box-align:center;
+	width: 100%;
+}
+.row>*
+{
+    display: block!important;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+}
+.row>.-col-auto {
+	display: block !important;
+	-webkit-box-flex:0;
+	-webkit-flex:0 0 auto;
+}
